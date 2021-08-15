@@ -3,7 +3,7 @@ comment "%%"
 
 color black "\{" "\}" "\[" "\]" "\(" "\)" "\|" "&" ":"
 
-color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "subgraph" "direction" "end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "id1" "participant" "as" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "is" "opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "merge"
+color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "subgraph" "direction" "end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "as" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "is" "opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "merge"
 
 color yellow "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]"
 
