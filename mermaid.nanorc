@@ -12,7 +12,7 @@ color magenta "subgraph" "direction" "^[[:space:]]*end" "click" "call" "callback
 
 color yellow "%%.*%%[[:space:]]*$" "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]" "--[^&>]*--" "-\..*\.-" "==.*==" "\|.*\|"
 
-color blue "<<Interface>>" "<<abstract>>" "<<Service>>" "<<enumeration>>" "<<choice>>" "<<fork>>" "<<join>>"
+color blue "<<Interface>>" "<<abstract>>" "<<Service>>" "<<enumeration>>" "<<choice>>" "<<fork>>" "<<join>>" "[[fork]]" "[[choice]]" "[[join]]"
 
 color black "<" ">"
 
