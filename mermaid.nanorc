@@ -1,16 +1,18 @@
 syntax mermaid "\.mmdc$"
 comment "%%"
 
-color black "\{" "\}" "\[" "\]" "\(" "\)" "\|" "&" ":"
+color cyan "%%.*"
 
-color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "subgraph" "direction" "end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "as" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "is" "opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "merge"
+color black "\{" "\}" "\[" "\]" "\(" "\)" ":" ";"
 
-color yellow "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]"
+color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "subgraph" "direction" "^[[:space:]]*end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "[[:space:]]as[[:space:]]" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "merge"
+
+color yellow "%%.*%%[[:space:]]*$" "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]" "--[^&>]*--" "-\..*\.-" "==.*==" "\|.*\|"
 
 color blue "<<Interface>>" "<<abstract>>" "<<Service>>" "<<enumeration>>" "<<choice>>" "<<fork>>" "<<join>>"
 
 color black "<" ">"
 
-color green "---" "----" "-----" "===" "====" "=====" "-\.-" "-\.\.-" "-\.\.\.-" "-\.->" "-\.\.->" "-\.\.\.->" "--->" "---->" "-->[+-]?" "==>[+-]?" "===>" "====>" "->>[+-]?" "-->>[+-]?" "->[+-]?" "-)[+-]?" "--)[+-]?" "-x[+-]?" "--x[+-]?" "--o" "o--o" "x--x" "<-->" "<\|--" "\*--" "o--" "\.\.>" "\.\.|>" "\.\." "[[:space:]]*:[[:space:]]*[+#~-]?" "\|o" "o\|" "}o" "o\{" "}\|" "\|\{" "<-"
+color green "&" "-\." "\|" "\|" "--" "---" "----" "-----" "==" "===" "====" "=====" "-\.-" "-\.\.-" "-\.\.\.-" "-?\.->" "-\.\.->" "-\.\.\.->" "--->" "---->" "-->[+-]?" "==>[+-]?" "===>" "====>" "->>[+-]?" "-->>[+-]?" "->[+-]?" "-)[+-]?" "--)[+-]?" "-x[+-]?" "--x[+-]?" "--o" "o--o" "x--x" "<-->" "<\|--" "\*--" "o--" "\.\.>" "\.\.|>" "\.\." "[[:space:]]*:[[:space:]]*[+#~-]?" "}\|" "\|\{" "<-" "}o" "o\{"
 
 color magenta "TB" "TD" "BT" "RL" "LR"
