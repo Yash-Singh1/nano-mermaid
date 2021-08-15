@@ -7,7 +7,8 @@ color black "\{" "\}" "\[" "\]" "\(" "\)" ":" ";"
 
 color yellow "title.*$"
 
-color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "subgraph" "direction" "^[[:space:]]*end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "[[:space:]]as[[:space:]]" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "[[:space:]]opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "reset" "merge" "showData" "scale" "width"
+color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey"
+color magenta "subgraph" "direction" "^[[:space:]]*end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "[[:space:]]as[[:space:]]" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "[[:space:]]opt" "par" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "reset" "merge" "showData" "scale" "width"
 
 color yellow "%%.*%%[[:space:]]*$" "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]" "--[^&>]*--" "-\..*\.-" "==.*==" "\|.*\|"
 
