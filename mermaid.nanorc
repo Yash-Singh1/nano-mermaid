@@ -3,19 +3,19 @@ comment "%%"
 
 color cyan "%%.*"
 
-color black "\{" "\}" "\[" "\]" "\(" "\)" ":" ";"
+color black ":" ";"
 
 color yellow "title.*$"
 
 color red "graph" "stateDiagram(-v2)?" "sequenceDiagram" "classDiagram" "pie" "erDiagram" "flowchart" "gantt" "gitGraph" "requirementDiagram" "journey" "info"
 color magenta "subgraph" "direction" "^[[:space:]]*end" "click" "call" "callback" "action" "link" "href" "classDef" "class" "cssClass" ":::" "participant" "[[:space:]]as[[:space:]]" "activate" "deactivate" "state" "Note" "note" "loop" "alt" "else" "[[:space:]]opt" "par" "autonumber" "and" "rect" "section" "title" "dateFormat" "axisFormat" "todayMarker" "topAxis" "inclusiveEndDates" "excludes" "done[[:space:]]*," "active[[:space:]]*," "crit[[:space:]]*," "requirement" "element" "options" "commit" "branch" "checkout" "reset" "merge" "showData" "scale" "width" "hide empty description" "showInfo"
 
-color yellow "%%.*%%[[:space:]]*$" "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]" "--[^&>]*--" "-\..*\.-" "==.*==" "\|.*\|"
+color yellow "%%.*%%[[:space:]]*$" "\".*\"" "\[+.*?\]" "[\{\(\}]+.*?[})]" "--[^&>]*--" "-\..*\.-" "==.*==" "\|.*\|" ">.*]"
 
 color blue "<<Interface>>" "<<abstract>>" "<<Service>>" "<<enumeration>>" "<<choice>>" "<<fork>>" "<<join>>" "[[fork]]" "[[choice]]" "[[join]]"
 
 color black "<" ">"
 
-color green "&" "-\." "\|" "\|" "--" "---" "----" "-----" "==" "===" "====" "=====" "-\.-" "-\.\.-" "-\.\.\.-" "-?\.->" "-\.\.->" "-\.\.\.->" "--->" "---->" "-->[+-]?" "==>[+-]?" "===>" "====>" "->>[+-]?" "-->>[+-]?" "->[+-]?" "-)[+-]?" "--)[+-]?" "-x[+-]?" "--x[+-]?" "--o" "o--o" "x--x" "<-->" "<\|--" "\*--" "o--" "\.\.>" "\.\.|>" "\.\." "[[:space:]]*:[[:space:]]*[+#~-]?" "}\|" "\|\{" "<-" "}o" "o\{"
+color green "&" "-\." "\|" "\|" "--" "---" "----" "-----" "==" "===" "====" "=====" "-\.-" "-\.\.-" "-\.\.\.-" "-?\.->" "-\.\.->" "-\.\.\.->" "--->" "---->" "-->[+-]?" "==>[+-]?" "===>" "====>" "->>[+-]?" "-->>[+-]?" "->[+-]?" "-)[+-]?" "--)[+-]?" "-x[+-]?" "--x[+-]?" "--o" "o--o" "x--x" "<-->" "<\|--" "\*--" "o--" "\.\.>" "\.\.|>" "\.\." "[[:space:]]*:[[:space:]]*[+#~-]?" "}\|" "\|\{" "<-" "}o" "o\{" "\[" "\]" "\{" "\}" "\(" "\)" 
 
 color magenta "TB" "TD" "BT" "RL" "LR"
